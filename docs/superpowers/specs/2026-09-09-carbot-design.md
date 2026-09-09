@@ -253,6 +253,15 @@
 - 5주차 전 LangChain 금지.
 - 색인·학습은 밤에.
 
+### 13.1 깃 운영 (GitHub Flow)
+
+- `main`은 항상 동작하는 상태. 깃 플로우의 develop·release·hotfix 브랜치는 쓰지 않는다(혼자 8주 프로젝트에 과잉).
+- 과제 카드 하나 = 브랜치 하나. 이름은 `week1/ingest`, `week2/hybrid-search`처럼 주차/모듈.
+- 끝나면 PR을 올리고 본인이 squash 머지한다. PR 본문은 `.github/pull_request_template.md`의 네 칸(무엇, 완성 판정, 측정치, 남긴 체크)만 채운다. PR 본문이 작업 일지이자 면접 기록이다.
+- 주차 마일스톤마다 태그: `v0.1-week1` … `v0.8-week8`.
+- 커밋 메시지 접두어: `feat:`, `fix:`, `eval:`, `docs:`, `chore:`. 규칙은 이게 전부.
+- 설계 단계(이 문서까지)는 `main`에 직접 커밋했고, 1주차부터 브랜치·PR로 간다.
+
 ## 14. 마일스톤 (8주)
 
 | 주 | 만드는 것 | 완성 판정 |
