@@ -1,6 +1,6 @@
 # 차봇 진행 상황
 
-세션 시작 시 이 파일부터 읽는다. 설계 원본: `docs/superpowers/specs/2026-09-09-chabot-design.md`
+세션 시작 시 이 파일부터 읽는다. 설계 원본: `docs/superpowers/specs/2026-09-09-carbot-design.md`
 
 ## 완료
 
