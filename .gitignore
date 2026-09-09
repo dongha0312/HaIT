@@ -1,0 +1,28 @@
+# 데이터 (자막 원문, 이미지, 임베딩은 저장소에 넣지 않음)
+data/raw/
+data/processed/
+data/models/
+*.safetensors
+*.gguf
+*.npz
+
+# 평가셋은 git에 넣는다 (data/eval/ 는 무시하지 않음)
+
+# 비밀값·환경
+.env
+.env.*
+!.env.example
+
+# 파이썬
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# 도구
+.DS_Store
+.idea/
+.vscode/
+adapters/
+reports/*.tmp
